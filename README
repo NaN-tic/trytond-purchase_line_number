@@ -1,0 +1,8 @@
+Purchase Line Number
+====================
+
+Assigns a read-only line_number to every purchase line when quoting a purchase,
+starting at 1 in line order (including titles, comments and subtotals).
+Existing numbers are preserved when quoting again; unnumbered lines receive
+consecutive numbers after the highest existing number in that purchase.
+Copied lines have their number cleared and are numbered on quotation.
